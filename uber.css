@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    background: url("https://images.unsplash.com/photo-1593950315186-76a92975b60c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dWJlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 7%;
+    align-items: center;
+}
+
+.inner-content {
+    display: inline-block;
+}
+
+
+
+.header #logo {
+    width: 10%;
+    margin-left: 0em;
+    padding-left: 0em;
+}
+
+.header #logo img {
+    width: 100%;
+    margin-left: 0em;
+    padding: 0%;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+.header .navbar a:hover {
+    background: #2f3e46;
+    padding: .5rem 3rem;
+    border-radius: 15px;
+
+}
+
+#menubar {
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+
+
+
+.settings {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 10px;
+}
+
+.options {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+    padding: 6px 15px;
+}
+
+#lang {
+    font-family: 'Open sans', sans-serif;
+}
+
+input {
+    padding: 5px 10px;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+
+div {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-color: white;
+}
+
+.req {
+    color: white;
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+
+    menu-bars {
+        display: initial;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+        background: #252422;
+        margin: 1rem;
+        padding: 1rem;
+        overflow: hidden;
+    }
+
+    .navbar.active {
+        top: 10%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+
+
+}
+
+#map {
+    width: 200px;
+    height: 50px;
+}
+
+.background-text h2 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.home-container {
+    background: #2f3e46;
+    padding: 1rem 7%;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-content {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content {
+    flex: 1 1 4rem;
+}
+
+.inner-content h2 {
+    font-size: 26px;
+}
+
+.inner-content h3 {
+    font-size: 21px;
+}
+
+.inner-content p {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 9rem;
+    padding-right: 17rem;
+}
+
+.inner-content img {
+    padding-left: 27rem;
+    padding-right: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.req button {
+    color: white;
+    background-color: black;
+    padding: 1rem 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.inp {
+    width: 280px;
+    height: 40px;
+}
+
+.req button:hover {
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background: gray;
+    border: none;
+}
+
+.req {
+    background-color: #2f3e46;
+    width: 375px;
+    margin: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 200px;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+
+}
